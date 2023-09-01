@@ -70,7 +70,7 @@ class GUI : JFrame() {
 	}
 
 	init {
-		title = "Image Concatenator"
+		title = "Hummel009's Sprite Creator"
 		defaultCloseOperation = EXIT_ON_CLOSE
 		setBounds(100, 100, 550, 180)
 
