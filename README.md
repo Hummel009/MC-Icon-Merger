@@ -9,7 +9,8 @@
 [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=Hummel009_MC-Sprite-Creator&metric=sqale_index)](https://sonarcloud.io/summary/overall?id=Hummel009_MC-Sprite-Creator)
 [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=Hummel009_MC-Sprite-Creator&metric=ncloc)](https://sonarcloud.io/summary/overall?id=Hummel009_MC-Sprite-Creator)
 
-Программа для склеивания 16х16 картинок в заданной папке в одно большое изображение 256х256. Заполняет по принципу ячеек слева направо сверху вниз. Была разработана в ходе бэкпорта мода "The Rings of Power" с 1.5.2 на 1.4.7.
+Программа для склеивания 16х16 картинок в заданной папке в одно большое изображение 256х256. Заполняет по принципу ячеек
+слева направо сверху вниз. Была разработана в ходе бэкпорта мода "The Rings of Power" с 1.5.2 на 1.4.7.
 
 ## Общая информация
 
