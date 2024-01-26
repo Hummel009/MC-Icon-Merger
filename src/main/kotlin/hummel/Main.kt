@@ -68,9 +68,9 @@ class GUI : JFrame() {
 	}
 
 	init {
-		title = "Hummel009's Sprite Creator"
+		title = "Hummel009's MC Sprite Creator"
 		defaultCloseOperation = EXIT_ON_CLOSE
-		setBounds(100, 100, 500, 150)
+		setBounds(100, 100, 640, 200)
 
 		val contentPanel = JPanel()
 		contentPanel.border = EmptyBorder(5, 5, 5, 5)
@@ -79,8 +79,8 @@ class GUI : JFrame() {
 		contentPane = contentPanel
 
 		val inputPanel = JPanel()
-		val inputLabel = JLabel("Input path:")
-		inputLabel.preferredSize = Dimension(80, inputLabel.preferredSize.height)
+		val inputLabel = JLabel("Icons folder path:")
+		inputLabel.preferredSize = Dimension(130, inputLabel.preferredSize.height)
 		val inputField = JTextField(24)
 		val inputButton = JButton("Select path")
 		inputButton.addActionListener { selectPath(inputField, true) }
@@ -89,8 +89,8 @@ class GUI : JFrame() {
 		inputPanel.add(inputButton)
 
 		val outputPanel = JPanel()
-		val outputLabel = JLabel("Output path:")
-		outputLabel.preferredSize = Dimension(80, outputLabel.preferredSize.height)
+		val outputLabel = JLabel("Output sprite path:")
+		outputLabel.preferredSize = Dimension(130, outputLabel.preferredSize.height)
 		val outputField = JTextField(24)
 		val outputButton = JButton("Select path")
 		outputButton.addActionListener { selectPath(outputField, false) }
@@ -99,7 +99,7 @@ class GUI : JFrame() {
 		outputPanel.add(outputButton)
 
 		val processPanel = JPanel()
-		val processButton = JButton("Process")
+		val processButton = JButton("Concatenate")
 		processButton.addActionListener {
 			process(inputField, outputField)
 		}
