@@ -1,4 +1,4 @@
-package hummel
+package com.github.hummel.merger
 
 import com.formdev.flatlaf.FlatLightLaf
 import com.formdev.flatlaf.intellijthemes.materialthemeuilite.FlatGitHubDarkIJTheme
@@ -68,7 +68,7 @@ class GUI : JFrame() {
 	}
 
 	init {
-		title = "Hummel009's MC Sprite Creator"
+		title = "Hummel009's MC Icon Merger"
 		defaultCloseOperation = EXIT_ON_CLOSE
 		setBounds(100, 100, 640, 200)
 
